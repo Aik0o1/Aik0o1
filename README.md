@@ -3,7 +3,7 @@
 <p>I'm Victor, majoring in computer science, and currently studying to become a Fullstack developer.</p>
 
 
-<img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=Aik0o1&show_icons=true&theme=radical" /><img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Aik0o1&show_icons=true&theme=radical&layout=compact&langs_count=8&card_width=320" />
+<img height=200 src="https://github-readme-stats.vercel.app/api?username=Aik0o1&show_icons=true&theme=radical" /><img height=200  src="https://github-readme-stats.vercel.app/api/top-langs?username=Aik0o1&show_icons=true&theme=radical&layout=compact&langs_count=8&card_width=320" />
 
 
 
