@@ -2,8 +2,7 @@
 <p>https://my-portfolio-xi-smoky.vercel.app/<p>
 <p>I'm Victor, majoring in computer science, and currently studying to become a Fullstack developer.</p>
 
-![Aik0o1's GitHub stats](https://github-readme-stats.vercel.app/api?username=aik0o1&show_icons=true&theme=radical)
-
+![aik0o1's GitHub stats](https://github-readme-stats.vercel.app/api?username=aik0o1&show_icons=true&theme=transparent) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aik0o1&layout=compact&theme=transparent)
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
