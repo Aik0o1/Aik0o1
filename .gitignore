@@ -20,3 +20,8 @@ Thumbs.db
 # Source ASCII art — already embedded inside dark_mode.svg / light_mode.svg,
 # no need to upload the raw file too (remove this line if you want it in the repo anyway)
 ascii.txt
+
+# Screenshots taken while debugging — not part of the profile
+*.png
+*.jpg
+*.jpeg
