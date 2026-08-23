@@ -1,0 +1,22 @@
+# Cache files that came from Andrew's original repo — not yours, don't upload these.
+# (a fresh cache for your account is created automatically on the first Action run,
+# and that new file is NOT ignored below on purpose — the workflow commits it back
+# to the repo each run so future runs don't have to rescan your whole commit history)
+cache/repository_archive.txt
+cache/9bd204c0530f81346837f038cdc22e3edcbd4c38ecbbc13fdc2a57c064f18f54.txt
+cache/requirements.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local secrets / env files
+.env
+
+# Source ASCII art — already embedded inside dark_mode.svg / light_mode.svg,
+# no need to upload the raw file too (remove this line if you want it in the repo anyway)
+ascii.txt

@@ -1,0 +1,39 @@
+name: Update SVG
+
+on:
+  schedule:
+    - cron: "0 12 * * *" # runs daily at 12:00 UTC
+  workflow_dispatch: # allows manual runs from the Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme-svg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate SVG
+        run: python today.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: Aik0o1
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update SVG - GitHub stats"
+          file_pattern: "*.svg cache/*.txt"
